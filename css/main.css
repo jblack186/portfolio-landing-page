@@ -1,0 +1,172 @@
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  position: fixed;
+  z-index: 99;
+  max-height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+}
+
+.nav-one img {
+  width: 12rem;
+  height: 80px;
+  object-fit: cover;
+}
+
+.nav-one {
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-two {
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.nav-one ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  list-style: none;
+}
+
+.nav-two ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  list-style: none;
+
+
+
+}
+
+nav li {
+  cursor: pointer;
+}
+
+nav li:hover {
+  color: darkgreen;
+}
+
+
+nav button {
+  background-color: orangered;
+  color: white;
+  border: 0;
+  margin-right: 15px;
+  cursor: pointer;
+  width: 150px;
+  height: 45px;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+
+}
+
+.banner .content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 35px;
+}
+
+.banner .content h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 4.5em;
+  text-transform: uppercase;
+  color: #fff;
+  padding-bottom: 25px;
+
+}
+
+.banner .content p {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: #fff;
+
+}
+
+.hero-buttons {
+  padding-top: 20px;
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner button {
+  cursor: pointer;
+  height: 74px;
+  width: 210px;
+  color: white
+}
+
+.banner button.button-one {
+  background-color:darkgreen;
+  font-size: 1.3rem;
+}
+
+.banner button.button-two {
+  background-color: transparent;
+  font-size: 1.3rem;
+  border: white 1px solid;
+  transition: opacity .5s;
+}
+
+.banner button.button-two:hover {
+  opacity: .7;
+}
+
+
+
